@@ -3,7 +3,7 @@ fizzbuzz.py
 Author: maCucyrt07
 Credit: kyle
 
-Assignment:
+Assignment: FizzBuzz
 
 Write a program that prints the numbers from 1 to 100. But for 
 multiples of three print “Fizz” instead of the number and for 
@@ -46,8 +46,8 @@ Buzz
 """
 i = 1
 k = int(input("How many numbers shall we print? "))
-f = int(input("For multiples of what number shall we print ‘Fizz’? "))
-b = int(input("For multiples of what number shall we print ‘Buzz’? "))
+f = int(input("For multiples of what number shall we print 'Fizz'? "))
+b = int(input("For multiples of what number shall we print 'Buzz'? "))
 hundred = range(1,k+1)
 
 for i in hundred:
