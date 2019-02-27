@@ -44,3 +44,20 @@ Fizz
 Fizz
 Buzz
 """
+i = 1
+k = int(input("How many numbers shall we print? "))
+f = int(input("For multiples of what number shall we print ‘Fizz’? "))
+b = int(input("For multiples of what number shall we print ‘Buzz’? "))
+hundred = range(1,k)
+
+while i <= k:
+	if f%i==0:
+		print("Fizz")
+	
+	elif b%i==0:
+		print("Buzz")
+	
+	elif f%i==0 and b%i==0:
+		print("FizzBuzz")
+	else:
+		print(i)
