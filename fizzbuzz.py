@@ -48,7 +48,7 @@ i = 1
 k = int(input("How many numbers shall we print? "))
 f = int(input("For multiples of what number shall we print ‘Fizz’? "))
 b = int(input("For multiples of what number shall we print ‘Buzz’? "))
-hundred = range(1,k)
+hundred = range(1,k+1)
 
 for i in hundred:
 	if i%f==0 and i%b==0:
